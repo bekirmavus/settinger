@@ -1,6 +1,6 @@
 {
   "name": "settinger",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "read and write settigs from file system",
   "main": "index.js",
   "scripts": {
