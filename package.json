@@ -1,25 +1,25 @@
 {
-  "name": "settinger",
-  "version": "1.0.2",
-  "description": "read and write settigs from file system",
-  "main": "index.js",
-  "scripts": {
-    "test": "index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bekirmavus/settinger.git"
-  },
-  "keywords": [
-    "settinger",
-    "setting",
-    "reader",
-    "writer"
-  ],
-  "author": "Bekir MAVUŞ <bmavus@gmail.com> (http://bekirmavus.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bekirmavus/settinger/issues"
-  },
-  "homepage": "https://github.com/bekirmavus/settinger#readme"
+    "name": "settinger",
+    "version": "1.0.3",
+    "description": "read and write settigs from file system",
+    "main": "index.js",
+    "scripts": {
+        "test": "index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bekirmavus/settinger.git"
+    },
+    "keywords": [
+        "settinger",
+        "setting",
+        "reader",
+        "writer"
+    ],
+    "author": "Bekir MAVUŞ <bmavus@gmail.com> (http://bekirmavus.com)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/bekirmavus/settinger/issues"
+    },
+    "homepage": "https://github.com/bekirmavus/settinger#readme"
 }
