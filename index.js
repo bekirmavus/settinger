@@ -1,4 +1,3 @@
-
 var settinger = {};
 
 settinger.settings = {};
@@ -9,24 +8,29 @@ settinger.read = function(address) {
     try {
         var data = fs.readFileSync(address, 'utf8');
         settinger.settings = JSON.parse(data);
-    }
-    catch(err) {
+    } catch (err) {
         return err;
     }
     return settinger.settings;
 };
 
-settinger.write = function(address, data) 
-{
+settinger.write = function(address, data) {
     var fs = require('fs');
     try {
         fs.writeFileSync(address, JSON.stringify(data));
-    }
-    catch(err) {
+    } catch (err) {
         return err;
-    } 
+    }
     return undefined;
 };
+
+settinger.checkExists = function(path) {
+    var fs = require('fs');
+    if (fs.existsSync(path)) {
+        return true;
+    }
+    return false;
+}
 
 
 module.exports = settinger;

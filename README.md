@@ -1,28 +1,43 @@
 # settinger
+
 A simple setting loader and saver module. It saves your setting object to file or read from file.
 
 # Installation
 
-    $ npm install settinger
-    
+```
+$ npm install settinger
+```
+
 # Usage
 
 to load:
 
-    var s = require("settinger");
+```
+var s = require("settinger");
+```
+
+to check if file exists
+
+```
+var boolResult = s.checkExists("./settings.json")
+```
 
 to read:
 
-    var settings = s.read("./settings.json");
-    console.log(s);
+```
+var settings = s.read("./settings.json");
+console.log(s);
+```
 
 or
 
-    s.read("./settings.json");
-    console.log(s.settings);
+```
+s.read("./settings.json");
+console.log(s.settings);
+```
 
 to write:
 
-    s.write("./settings.json", data);
-    
-
+```
+s.write("./settings.json", data);
+```
